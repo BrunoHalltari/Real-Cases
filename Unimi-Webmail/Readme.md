@@ -9,7 +9,7 @@ First of all I tried to see if there was any input not sanitized properly to try
 
 
 ![unimia2](https://user-images.githubusercontent.com/59454895/113420406-90ae8c80-93c9-11eb-9aaf-f9a88da90b17.PNG)
-Now I knew the webmail service can handle svg files , once opened the browser parse the malicious code and we can get  the xss :
+Now I knew the webmail service could handle svg files , once opened the browser parse the malicious code and we can get  the xss :
 
 ![Unimia3](https://user-images.githubusercontent.com/59454895/113420875-64474000-93ca-11eb-862a-23930a055a1c.PNG)
 
