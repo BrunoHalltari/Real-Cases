@@ -59,4 +59,4 @@ The worst thing is that the token can be leaked into the attacker's server and i
 
 ![Unimia4](https://user-images.githubusercontent.com/59454895/113429277-8c3da000-93d8-11eb-9fe2-b8d2018a282c.PNG)
 
-I won't publish the final poc in order to avoid problems :P , but it was very easy to leak the token and execute a good CSRF where an attacker could send an email without the authorization of the owner.
+I won't publish the final poc in order to avoid problems, but it was very easy to leak the token and execute a good CSRF where an attacker could send an email without the authorization of the owner.
