@@ -3,7 +3,7 @@
 I decided to write  a technical write-up about a bug inside the WebMail of "Università degli studi di Milano ".
 In this post I will share technical details on the xss vulnerability inside a svg file that could be chained with a csrf. 
 
-## Xss inside svg
+## XSS+CSRF with svg
 
 First of all I tried to see if there was any input not sanitized properly to try some xss but nothing, so I tried to see how webmail handled svg files with some js inside, sending svg file from my personal email to my university emails and I managed to find something good.
 
